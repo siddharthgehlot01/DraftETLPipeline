@@ -1,0 +1,479 @@
+Last login: Sat Jul 31 15:37:03 on ttys002
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) Siddharths-MacBook-Pro:~ siddharthgehlot$ cd desktop
+(base) Siddharths-MacBook-Pro:desktop siddharthgehlot$ cd etlproject/
+(base) Siddharths-MacBook-Pro:etlproject siddharthgehlot$ cd DraftETLPipeline
+(base) Siddharths-MacBook-Pro:DraftETLPipeline siddharthgehlot$ pipenv install
+Creating a virtualenv for this project...
+Pipfile: /Users/siddharthgehlot/Desktop/etlproject/DraftETLPipeline/Pipfile
+Using /Users/siddharthgehlot/opt/anaconda3/bin/python3.8 (3.8.3) to create virtualenv...
+⠙ Creating virtual environment...created virtual environment CPython3.8.3.final.0-64 in 770ms
+  creator CPython3Posix(dest=/Users/siddharthgehlot/.local/share/virtualenvs/DraftETLPipeline-QjlWruQm, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/Users/siddharthgehlot/Library/Application Support/virtualenv)
+    added seed packages: pip==21.1.3, setuptools==57.1.0, wheel==0.36.2
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+
+✔ Successfully created virtual environment! 
+Virtualenv location: /Users/siddharthgehlot/.local/share/virtualenvs/DraftETLPipeline-QjlWruQm
+Installing dependencies from Pipfile.lock (b2e720)...
+  🐍   ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 72/72 — 00:00:27
+To activate this project's virtualenv, run pipenv shell.
+Alternatively, run a command inside the virtualenv with pipenv run.
+(base) Siddharths-MacBook-Pro:DraftETLPipeline siddharthgehlot$ pip list
+Package                            Version
+---------------------------------- ----------------------
+absl-py                            0.11.0
+alabaster                          0.7.12
+anaconda-client                    1.7.2
+anaconda-navigator                 1.9.12
+anaconda-project                   0.8.3
+applaunchservices                  0.2.1
+appnope                            0.1.0
+appscript                          1.1.1
+apyori                             1.1.2
+architectures                      0.2.0
+argh                               0.26.2
+asn1crypto                         1.3.0
+astroid                            2.4.2
+astropy                            4.0.1.post1
+astunparse                         1.6.3
+atomicwrites                       1.4.0
+attrs                              19.3.0
+autopep8                           1.5.3
+Babel                              2.8.0
+backcall                           0.2.0
+backports.entry-points-selectable  1.1.0
+backports.functools-lru-cache      1.6.1
+backports.shutil-get-terminal-size 1.0.0
+backports.tempfile                 1.0
+backports.weakref                  1.0.post1
+beautifulsoup4                     4.9.1
+bitarray                           1.4.0
+bkcharts                           0.2
+bleach                             3.1.5
+bokeh                              2.1.1
+boto                               2.49.0
+Bottleneck                         1.3.2
+Brotli                             1.0.9
+brotlipy                           0.7.0
+cachetools                         4.1.1
+certifi                            2020.6.20
+cffi                               1.14.0
+chardet                            3.0.4
+click                              7.1.2
+click-plugins                      1.1.1
+cligj                              0.7.1
+cloudpickle                        1.5.0
+clyent                             1.2.2
+colorama                           0.4.3
+colorlover                         0.3.0
+conda                              4.9.2
+conda-build                        3.18.11
+conda-package-handling             1.7.0+0.g7c4a471.dirty
+conda-verify                       3.4.2
+contextlib2                        0.6.0.post1
+cryptography                       2.9.2
+cufflinks                          0.17.3
+cycler                             0.10.0
+Cython                             0.29.21
+cytoolz                            0.10.1
+dash                               1.20.0
+dash-core-components               1.16.0
+dash-html-components               1.1.3
+dash-renderer                      1.9.1
+dash-table                         4.11.3
+dask                               2.20.0
+decorator                          4.4.2
+defusedxml                         0.6.0
+descartes                          1.1.0
+diff-match-patch                   20200713
+distlib                            0.3.2
+distributed                        2.20.0
+docutils                           0.16
+entrypoints                        0.3
+et-xmlfile                         1.0.1
+fastcache                          1.1.0
+filelock                           3.0.12
+Fiona                              1.8.18
+flake8                             3.8.3
+Flask                              1.1.2
+Flask-Compress                     1.10.1
+fsspec                             0.7.4
+future                             0.18.2
+gast                               0.3.3
+geopandas                          0.3.0
+gevent                             20.6.2
+glob2                              0.7
+gmpy2                              2.0.8
+google-auth                        1.23.0
+google-auth-oauthlib               0.4.2
+google-pasta                       0.2.0
+graphviz                           0.16
+greenlet                           0.4.16
+grpcio                             1.33.2
+gym                                0.18.0
+gym-bandits                        0.0.1
+h5py                               2.10.0
+HeapDict                           1.0.1
+html5lib                           1.1
+idna                               2.10
+imageio                            2.9.0
+imagesize                          1.2.0
+importlib-metadata                 1.7.0
+intervaltree                       3.0.2
+ipykernel                          5.3.2
+ipython                            7.16.1
+ipython-genutils                   0.2.0
+ipywidgets                         7.5.1
+isort                              4.3.21
+itsdangerous                       1.1.0
+jdcal                              1.4.1
+jedi                               0.17.1
+Jinja2                             2.11.2
+joblib                             0.16.0
+json5                              0.9.5
+jsonschema                         3.2.0
+jupyter                            1.0.0
+jupyter-client                     6.1.6
+jupyter-console                    6.1.0
+jupyter-core                       4.6.3
+jupyterlab                         2.1.5
+jupyterlab-server                  1.2.0
+Keras                              2.4.3
+Keras-Preprocessing                1.1.2
+keyring                            21.2.1
+kiwisolver                         1.2.0
+lazy-object-proxy                  1.4.3
+libarchive-c                       2.9
+llvmlite                           0.33.0+1.g022ab0f
+locket                             0.2.0
+lxml                               4.5.2
+Markdown                           3.3.3
+MarkupSafe                         1.1.1
+matplotlib                         3.2.2
+mccabe                             0.6.1
+mistune                            0.8.4
+mkl-fft                            1.1.0
+mkl-random                         1.1.1
+mkl-service                        2.3.0
+mock                               4.0.2
+more-itertools                     8.4.0
+mpmath                             1.1.0
+msgpack                            1.0.0
+multipledispatch                   0.6.0
+munch                              2.5.0
+navigator-updater                  0.2.1
+nb-utils                           0.1.1
+nbconvert                          5.6.1
+nbformat                           5.0.7
+networkx                           2.4
+nltk                               3.5
+nose                               1.3.7
+notebook                           6.0.3
+numba                              0.50.1
+numexpr                            2.7.1
+numpy                              1.18.5
+numpydoc                           1.1.0
+oauthlib                           3.1.0
+olefile                            0.46
+opencv-python                      4.4.0.46
+openpyxl                           3.0.4
+opt-einsum                         3.3.0
+packaging                          20.4
+pandas                             1.0.5
+pandocfilters                      1.4.2
+parso                              0.7.0
+partd                              1.1.0
+path                               13.1.0
+pathlib2                           2.3.5
+pathtools                          0.1.2
+patsy                              0.5.1
+pep8                               1.7.1
+pexpect                            4.8.0
+pickleshare                        0.7.5
+Pillow                             7.2.0
+pip                                20.1.1
+pipenv                             2021.5.29
+pkginfo                            1.5.0.1
+platformdirs                       2.2.0
+plotly                             4.13.0
+plotly-geo                         1.0.0
+pluggy                             0.13.1
+ply                                3.11
+prometheus-client                  0.8.0
+prompt-toolkit                     3.0.5
+protobuf                           3.14.0
+psutil                             5.7.0
+ptyprocess                         0.6.0
+py                                 1.9.0
+py4j                               0.10.9
+pyasn1                             0.4.8
+pyasn1-modules                     0.2.8
+pycodestyle                        2.6.0
+pycosat                            0.6.3
+pycparser                          2.20
+pycurl                             7.43.0.5
+pydocstyle                         5.0.2
+pyflakes                           2.2.0
+pyglet                             1.5.0
+Pygments                           2.6.1
+pylint                             2.5.3
+pyodbc                             4.0.0-unsupported
+pyOpenSSL                          19.1.0
+pyparsing                          2.4.7
+pyproj                             3.0.0.post1
+pyrsistent                         0.16.0
+pyshp                              1.2.10
+PySocks                            1.7.1
+pyspark                            3.1.2
+pytest                             5.4.3
+python-dateutil                    2.8.1
+python-jsonrpc-server              0.3.4
+python-language-server             0.34.1
+pytz                               2020.1
+PyWavelets                         1.1.1
+PyYAML                             5.3.1
+pyzmq                              19.0.1
+QDarkStyle                         2.8.1
+QtAwesome                          0.7.2
+qtconsole                          4.7.5
+QtPy                               1.9.0
+regex                              2020.6.8
+requests                           2.24.0
+requests-oauthlib                  1.3.0
+retrying                           1.3.3
+rope                               0.17.0
+rsa                                4.6
+Rtree                              0.9.4
+ruamel-yaml                        0.15.87
+scikit-image                       0.16.2
+scikit-learn                       0.23.1
+scipy                              1.5.0
+seaborn                            0.10.1
+Send2Trash                         1.5.0
+setuptools                         49.2.0.post20200714
+Shapely                            1.7.1
+simplegeneric                      0.8.1
+singledispatch                     3.4.0.3
+six                                1.15.0
+snowballstemmer                    2.0.0
+sortedcollections                  1.2.1
+sortedcontainers                   2.2.2
+soupsieve                          2.0.1
+Sphinx                             3.1.2
+sphinxcontrib-applehelp            1.0.2
+sphinxcontrib-devhelp              1.0.2
+sphinxcontrib-htmlhelp             1.0.3
+sphinxcontrib-jsmath               1.0.1
+sphinxcontrib-qthelp               1.0.3
+sphinxcontrib-serializinghtml      1.1.4
+sphinxcontrib-websupport           1.2.3
+split-folder                       0.1.1
+split-folders                      0.4.3
+spyder                             4.1.4
+spyder-kernels                     1.9.2
+SQLAlchemy                         1.3.18
+statsmodels                        0.11.1
+sympy                              1.6.1
+tables                             3.6.1
+tblib                              1.6.0
+tensorboard                        2.4.0
+tensorboard-plugin-wit             1.7.0
+tensorflow                         2.3.1
+tensorflow-estimator               2.3.0
+termcolor                          1.1.0
+terminado                          0.8.3
+testpath                           0.4.4
+threadpoolctl                      2.1.0
+toml                               0.10.1
+toolz                              0.10.0
+tornado                            6.0.4
+tqdm                               4.47.0
+traitlets                          4.3.3
+typing-extensions                  3.7.4.2
+ujson                              1.35
+unicodecsv                         0.14.1
+urllib3                            1.25.9
+virtualenv                         20.6.0
+virtualenv-clone                   0.5.6
+watchdog                           0.10.3
+wcwidth                            0.2.5
+webencodings                       0.5.1
+Werkzeug                           1.0.1
+wheel                              0.34.2
+widgetsnbextension                 3.5.1
+wrapt                              1.11.2
+wurlitzer                          2.0.1
+xlrd                               1.2.0
+XlsxWriter                         1.2.9
+xlwings                            0.19.5
+xlwt                               1.3.0
+xmltodict                          0.12.0
+yapf                               0.30.0
+zict                               2.0.0
+zipp                               3.1.0
+zope.event                         4.4
+zope.interface                     4.7.1
+(base) Siddharths-MacBook-Pro:DraftETLPipeline siddharthgehlot$ git checkout -b 'dev'
+Switched to a new branch 'dev'
+(base) Siddharths-MacBook-Pro:DraftETLPipeline siddharthgehlot$ git status
+On branch dev
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	Pipfile
+	Pipfile.lock
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) Siddharths-MacBook-Pro:DraftETLPipeline siddharthgehlot$ git add .
+(base) Siddharths-MacBook-Pro:DraftETLPipeline siddharthgehlot$ git status
+On branch dev
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   Pipfile
+	new file:   Pipfile.lock
+
+(base) Siddharths-MacBook-Pro:DraftETLPipeline siddharthgehlot$ git commit -m 'devcommit'
+[dev (root-commit) 31a769b] devcommit
+ Committer: Siddharth Gehlot <siddharthgehlot@Siddharths-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 941 insertions(+)
+ create mode 100644 Pipfile
+ create mode 100644 Pipfile.lock
+(base) Siddharths-MacBook-Pro:DraftETLPipeline siddharthgehlot$ git push
+fatal: The current branch dev has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin dev
+
+(base) Siddharths-MacBook-Pro:DraftETLPipeline siddharthgehlot$ git push --set-upstream origin dev
+Username for 'https://github.com': siddharthgehlot01
+Password for 'https://siddharthgehlot01@github.com': 
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 21.22 KiB | 10.61 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/siddharthgehlot01/DraftETLPipeline.git
+ * [new branch]      dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
+(base) Siddharths-MacBook-Pro:DraftETLPipeline siddharthgehlot$ git status
+On branch dev
+Your branch is up to date with 'origin/dev'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	config/
+	test/
+	xetra/
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) Siddharths-MacBook-Pro:DraftETLPipeline siddharthgehlot$ git add .
+(base) Siddharths-MacBook-Pro:DraftETLPipeline siddharthgehlot$ git status
+On branch dev
+Your branch is up to date with 'origin/dev'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   .DS_Store
+	new file:   config/__init__.py
+	new file:   test/.DS_Store
+	new file:   test/__init__.py
+	new file:   test/common/__init__.py
+	new file:   test/integration_test/__init__.py
+	new file:   test/transformers/__init__.py
+	new file:   xetra/.DS_Store
+	new file:   xetra/__init__.py
+	new file:   xetra/common/__init__.py
+	new file:   xetra/transformers/__init__.py
+
+(base) Siddharths-MacBook-Pro:DraftETLPipeline siddharthgehlot$ git commit -m 'devcommit2'
+[dev 808c8e6] devcommit2
+ Committer: Siddharth Gehlot <siddharthgehlot@Siddharths-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 11 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 .DS_Store
+ create mode 100644 config/__init__.py
+ create mode 100644 test/.DS_Store
+ create mode 100644 test/__init__.py
+ create mode 100644 test/common/__init__.py
+ create mode 100644 test/integration_test/__init__.py
+ create mode 100644 test/transformers/__init__.py
+ create mode 100644 xetra/.DS_Store
+ create mode 100644 xetra/__init__.py
+ create mode 100644 xetra/common/__init__.py
+ create mode 100644 xetra/transformers/__init__.py
+(base) Siddharths-MacBook-Pro:DraftETLPipeline siddharthgehlot$ git push
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (9/9), 1.51 KiB | 1.51 MiB/s, done.
+Total 9 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/siddharthgehlot01/DraftETLPipeline.git
+   31a769b..808c8e6  dev -> dev
+(base) Siddharths-MacBook-Pro:DraftETLPipeline siddharthgehlot$ pipenv shell
+Launching subshell in virtual environment...
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$  . /Users/siddharthgehlot/.local/share/virtualenvs/DraftETLPipeline-QjlWruQm/bin/activate
+(DraftETLPipeline) bash-3.2$ python
+Python 3.8.3 (default, Jul  2 2020, 11:26:31) 
+[Clang 10.0.0 ] :: Anaconda, Inc. on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from xetra.common.constants import S3FIleTypes
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ImportError: cannot import name 'S3FIleTypes' from 'xetra.common.constants' (/Users/siddharthgehlot/Desktop/etlproject/DraftETLPipeline/xetra/common/constants.py)
+>>> from xetra.common.constants import S3FileTypes
+>>> exit()
+(DraftETLPipeline) bash-3.2$ dir
+bash: dir: command not found
+(DraftETLPipeline) bash-3.2$ cd tests
+bash: cd: tests: No such file or directory
+(DraftETLPipeline) bash-3.2$ cd test
+(DraftETLPipeline) bash-3.2$ python
+Python 3.8.3 (default, Jul  2 2020, 11:26:31) 
+[Clang 10.0.0 ] :: Anaconda, Inc. on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from xetra.common.constants import S3FileTypes
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'xetra'
+>>> for p in sys.path: print(p)
+... 
